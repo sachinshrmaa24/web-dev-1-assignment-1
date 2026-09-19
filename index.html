@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="A personal portfolio website showcasing my projects, skills, and contact information.">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <section id="home" aria-labelledby="hero-title">
+            <h2 id="hero-title">Welcome to My Portfolio</h2>
+            <p>
+                Hello! I am a web development student learning how to build
+                clean, accessible, and user-friendly websites using HTML,
+                CSS, and JavaScript.
+            </p>
+        </section>
+
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About Me</h2>
+
+            <img src="images/profile.jpeg" alt="Profile picture of a web development student" width="200">
+
+
+            <p>
+                I am a passionate student interested in web development and
+                technology. I enjoy learning new programming concepts and
+                creating simple websites. My goal is to improve my technical
+                skills and build useful and creative web projects.
+            </p>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">My Projects</h2>
+
+            <ul>
+                <li>
+                    <article>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            A simple portfolio website created using semantic HTML
+                            to showcase my profile, skills, and projects.
+                        </p>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <h3>Student Registration Form</h3>
+                        <p>
+                            A structured HTML form designed to collect student
+                            information using labels and form validation.
+                        </p>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <h3>College Website</h3>
+                        <p>
+                            A basic college website concept containing information
+                            about courses, departments, and campus activities.
+                        </p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-title">
+            <h2 id="skills-title">Technical Skills</h2>
+
+            <table border="1">
+                <caption>My Technical Skills and Learning Levels</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Skill / Tool</th>
+                        <th scope="col">Learning Level</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Intermediate</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Beginner</td>
+                    </tr>
+
+                    <tr>
+                        <td>Git &amp; GitHub</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact Me</h2>
+
+            <p>
+                If you would like to get in touch, please fill out the form below.
+            </p>
+
+            <form action="#" method="post">
+
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea id="message" name="message" rows="6" cols="40" placeholder="Write your message here"
+                        required></textarea>
+                </div>
+
+                <br>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+        <p><a href="#main-content">Back to main content</a></p>
+    </footer>
+
+</body>
+
+</html>
