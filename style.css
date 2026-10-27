@@ -1,0 +1,172 @@
+```css
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 20px;
+}
+
+/* Header */
+header {
+    background-color: #0750ad;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 22px;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Sections */
+main {
+    background-color: #f5f5f5;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+section h2 {
+    font-size: 18px;
+}
+
+/* Home Section */
+#home p {
+    margin: 10px;
+}
+
+/* About Section */
+#about img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #c6ddff;
+}
+
+/* Projects Section */
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
+    margin: 10px;
+}
+
+#projects article {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#projects h3 {
+    color: #0750ad;
+    font-size: 15px;
+}
+
+/* Skills Table */
+#skills table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#skills th {
+    background-color: #0750ad;
+    color: white;
+}
+
+#skills th,
+#skills td {
+    border: 1px solid #0750ad;
+    padding: 8px;
+    text-align: center;
+}
+
+#skills tr:nth-child(even) {
+    background-color: #eaf1ff;
+}
+
+/* Contact Form */
+#contact form {
+    width: 70%;
+    margin: 20px auto;
+    text-align: left;
+    border: 1px solid #0750ad;
+    padding: 10px;
+}
+
+#contact label {
+    display: inline-block;
+    width: 90px;
+}
+
+#contact input,
+#contact textarea {
+    padding: 7px;
+    border: 1px solid #aaa;
+}
+
+#contact button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 25px;
+    background-color: #0750ad;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+#contact button:hover {
+    background-color: #003778;
+}
+
+/* Footer */
+footer {
+    background-color: #0750ad;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Back to Top */
+footer p:last-child a {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #0750ad;
+    padding: 8px;
+    border: 1px solid white;
+}
+```
